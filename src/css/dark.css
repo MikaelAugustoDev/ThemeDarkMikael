@@ -1,0 +1,55 @@
+.cabecalho.dark {
+    background-color: var(--header-dark);
+}
+
+.cabecalho.dark .titulos h1 {
+    color: var(--texto-dark);
+}
+
+.cabecalho.dark .titulos p {
+    color: var(--textos-dark);
+}
+
+.cabecalho.dark .dark  {
+    color: var(--textos-dark);
+}
+
+.main.dark {
+    background-color: var(--background-dark);
+}
+
+.main.dark .followers .card {
+    background-color: var(--card-dark);
+}
+
+.main.dark .followers .card .redes-sociais {
+    color: var(--textos-dark);
+}
+
+.main.dark .followers .card  h2 {
+    color: var(--texto-dark);
+}
+
+.main.dark .followers .card .info {
+    color: var(--textos-dark);
+}
+
+.main.dark .overview h2 {
+    color: var(--texto-dark);
+}
+
+.main.dark .overview .card-overview {
+    background-color: var(--card-dark);
+}
+
+.main.dark .overview .informacoes p {
+    color: var(--textos-dark);
+}
+
+.main.dark .overview .numeros h2 {
+    color: var(--texto-dark);
+}
+
+.main.dark .overview .card-overview:hover, .main.dark .followers .card:hover{
+    background:hsl(228, 28%, 40%);
+}
